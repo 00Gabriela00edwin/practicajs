@@ -1,51 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astronomía Aficionada</title>
-    <link rel="stylesheet" href="styles.css">
-  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cuestionario Astronomía</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <h1>Astronomía Aficionada</h1>
-        <nav>
-            <ul class="menu">
-                <li class="dropdown">
-                    <a href="#">Galería</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#luna">Mis fotos de la Luna</a></li>
-                        <li><a href="#saturno">Saturno</a></li>
-                        <li><a href="#jupiter">Júpiter</a></li>
-                        <li><a href="#cumulos">Cúmulos</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section class="carousel">
-            <div class="carousel-container">
-                <img src="img1.jpg" alt="Imagen 1 del James Webb">
-                <img src="img2.jpg" alt="Imagen 2 del James Webb">
-                <img src="img3.jpg" alt="Imagen 3 del James Webb">
-            </div>
-        </section>
-    </main>
-    
-    <aside>
-        <h2>Frases de Carl Sagan</h2>
-        <p>"En algún lugar, algo increíble está esperando a ser descubierto."</p>
-        <p>"Somos polvo de estrellas."</p>
-        <p>"La imaginación nos lleva a mundos que nunca existieron. Pero sin ella, no vamos a ningún lado."</p>
-    </aside>
-    
-    <footer>
-        <p>Contacto: astronomia@ejemplo.com</p>
-    </footer>
-    <script src="/practicagaby/main.js"></script>
-    
+  <div class="questionnaire" id="quiz">
+    <h1>¿Por qué te gusta la astronomía?</h1>
+    <div class="question" id="question"></div>
+    <div id="options"></div>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
